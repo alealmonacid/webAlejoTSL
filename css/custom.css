@@ -48,21 +48,21 @@ body{
 .infoAlejoTSL{
     background-color: #000;
 }
-h2{
+#home-alejotsl h2{
     font-family: "Open Sans", sans-serif;
     font-weight:900;
     font-size: 4rem;
     font-style: italic;
 }
-h2 span{
+#home-alejotsl h2 span{
     color: #e04284;
 }
-h1{
+#home-alejotsl h1{
     font-size: 2rem;
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
 }
-h3{
+#home-alejotsl h3{
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
     color: white;
@@ -71,5 +71,18 @@ h3{
 background: linear-gradient(to bottom, #FFFFFF 29%, #FFAAB7 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-
+}
+#home-alejotsl p{
+    color: #f2f2f2;
+    font-size: 1rem;
+    line-height: 2;
+    font-family: "Open Sans", sans-serif;
+}
+.img-alejotsl{
+    border-radius: 40px;
+}
+.graficas canvas{
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
 }
